@@ -1,0 +1,47 @@
+body{
+    background-color: #FFFFE0;
+}
+.container {
+    display: flex;
+    height: 100vh; /* 设置容器高度为视口高度，以使容器充满整个屏幕 */
+    justify-content: center; /* 将表格水平居中 */
+    align-items: center; /* 将表格垂直居中 */
+}
+table {
+    border-color: white;
+    width: 60%;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green;
+}
+input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 8px;
+}
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: none;
+}
